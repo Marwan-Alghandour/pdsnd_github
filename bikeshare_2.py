@@ -30,7 +30,7 @@ def get_filters():
         # error handler if the user enters a month not in the list (all, january, february, ... , june)
         month_check_list = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
         if month not in month_check_list:
-            print('Invalid month option')
+            print('Invalid month option.')
             continue
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
