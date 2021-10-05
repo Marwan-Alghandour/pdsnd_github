@@ -39,7 +39,7 @@ def get_filters():
         # error handler if the user enters a day not in the list (all, monday, tuesday, ... sunday)
         day_check_list = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
         if day not in day_check_list:
-            print('Invalid day option')
+            print('Invalid day option.')
             continue
         break
     print('-'*40)
