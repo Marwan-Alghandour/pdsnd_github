@@ -22,7 +22,7 @@ def get_filters():
         city = input('Would you like to see the data for Chicago, New York City, or Washington?\n').lower()
         # error handler if the user enters a city not in the list (chicago, new york city, washington)
         if city not in CITY_DATA:
-            print('Invalid city name')
+            print('Invalid city name.')
             continue
     # TO DO: get user input for month (all, january, february, ... , june)
         # user choose if he want to filter the data according to the month or not (all)
